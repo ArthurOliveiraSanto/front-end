@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+  background: #edededdb;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: center;
+    padding: 0,5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #004eb4;
+    height: 65px;
+}
+
+nav .logo{
+    width: 170px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+}
+
+
+li a:hover{
+    background: rgb(255, 255, 255);
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+}
+
+.content{
+    text-align: center;
+}
+
+.content h1{
+    font-size: 160px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.content h1:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media(max-aspect-ratio: 16/9){
+    .banner video{
+        width: 90;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+.about-us{
+ 
+  width: 100%;
+  padding: 90px 0;
+}
+.pic{
+  height: auto;
+  width:  302px;
+}
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text{
+  width: 540px;
+}
+.text h2{
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+.text h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+span{
+  color: #4f0bbd;
+}
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.data{
+  margin-top: 30px;
+}
+.hire{
+  font-size: 18px;
+  background: #004eb4;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.hire:hover{
+  background: #000;
+  border: 1px solid #4070f4;
+}
+
+
+body {
+  text-align: center;
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+    font-family: 'Lexend Deca', sans-serif; 
+    color: #140729;    
+  }
+
+  html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+   
+  }
+  .slider{
+    max-width: 1100px;
+    display: flex;
+  }
+  .slider .card{
+    flex: 1;
+    margin: 0 10px;
+   
+  }
+  .slider .card .img{
+    height: 200px;
+    width: 100%;
+  }
+  .slider .card .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .slider .card .content{
+    padding: 10px 20px;
+  }
+  .card .content .title{
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .card .content .sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #004eb4;
+    line-height: 20px;
+  }
+  .card .content p{
+    text-align: justify;
+    margin: 10px 0;
+  }
+
+  html,body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
